@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "589843327907",
+    "project_id": "stickman-cannon",
+    "storage_bucket": "stickman-cannon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589843327907:android:71c25bb0cabbf62ac98816",
+        "android_client_info": {
+          "package_name": "com.Molfar.Stickmanagainstpigs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589843327907-mv2l7rrg5akjb9etnunu5oudl6tmgbb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS9ShyBWKi981ZrUEGmEEery7kxjxP3u4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589843327907-mv2l7rrg5akjb9etnunu5oudl6tmgbb9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "589843327907-7csk3jg7m1r5grpa1ous9h4ugskd9h7b.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Molfar.Stickmanagainstpigs"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3210747213539376263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3210747213539376281}
+  - component: {fileID: 3210747213539376282}
+  - component: {fileID: 4511181942110013020}
+  - component: {fileID: 7504150464456137338}
+  - component: {fileID: 8695157316650934178}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3210747213539376281
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3210747213539376263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 544.261, y: 246.69022, z: -2.3714035}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3210747213539376282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3210747213539376263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4291861ef8173b642bf2d24276be410f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _levelTxt: {fileID: 0}
+  _levelScoreTxt: {fileID: 0}
+  _stars:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _currentLevel: 0
+  _targets: []
+  _objects: []
+  _targetSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  maxCountTargetsArrey: 0000000000000000
+  actualTargets: []
+  _maxLevelScore: 0
+  currentLevelScore: 0
+--- !u!114 &4511181942110013020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3210747213539376263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef43cbee58c180b4485c8813adad92cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _winSlot: {fileID: 0}
+  _shootCountWinCondition: 1
+--- !u!114 &7504150464456137338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3210747213539376263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b57070c18171a2448bd93ce4df9e8ff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 50
+  radius: 5
+  upliftModifer: 5
+  level: 1
+--- !u!114 &8695157316650934178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3210747213539376263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00530df8668b30c48b16fcab81ef30d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxActiveLevel: 0

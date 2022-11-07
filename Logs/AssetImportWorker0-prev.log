@@ -1,0 +1,1118 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19041) 64bit Enterprise' Language: 'ru' Physical Memory: 15733 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/New Games/SAP
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56813
+Successfully changed project path to: D:/New Games/SAP
+D:/New Games/SAP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 63.39 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/New Games/SAP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.5763
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005472 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 65.78 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.617 seconds
+Domain Reload Profiling:
+	ReloadAssembly (617ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (443ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (58ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006716 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 60.59 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to write to 'ProjectSettings\GvhProjectSettings.xml' (System.IO.IOException: Sharing violation on path D:\New Games\SAP\ProjectSettings\GvhProjectSettings.xml
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean useAsync) [0x00000] in <c2a97e0383e8404c9fc0ae19d58f57f1>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,bool)
+  at System.Xml.XmlWriterSettings.CreateWriter (System.String outputFileName) [0x00051] in <06d4f84f93654a40b99ad3980ea716bc>:0 
+  at System.Xml.XmlWriter.Create (System.String outputFileName, System.Xml.XmlWriterSettings settings) [0x0000a] in <06d4f84f93654a40b99ad3980ea716bc>:0 
+  at Google.ProjectSettings.Save () [0x0006d] in /Users/drsanta/dev/build/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:821 , Project settings were not saved!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+Google.Logger:Log (string,Google.LogLevel) (at /Users/drsanta/dev/build/unity-jar-resolver/source/VersionHandlerImpl/src/Logger.cs:136)
+Google.ProjectSettings:Save () (at /Users/drsanta/dev/build/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:844)
+Google.ProjectSettings:SetBool (string,bool,Google.SettingsLocation) (at /Users/drsanta/dev/build/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:485)
+Google.ProjectSettings:SetBool (string,bool) (at /Users/drsanta/dev/build/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs:497)
+Google.IOSResolver:set_VerboseLoggingEnabled (bool) (at /Users/drsanta/dev/build/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:1011)
+Google.IOSResolver:.cctor () (at /Users/drsanta/dev/build/unity-jar-resolver/source/IOSResolver/src/IOSResolver.cs:701)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: /Users/drsanta/dev/build/unity-jar-resolver/source/VersionHandlerImpl/src/ProjectSettings.cs Line: 844)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1274ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (960ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (580ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (378ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2805 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 120 unused Assets / (1.3 MB). Loaded Objects now: 3205.
+Memory consumption went from 134.8 MB to 133.5 MB.
+Total: 4.495700 ms (FindLiveObjects: 0.262200 ms CreateObjectMapping: 0.087300 ms MarkObjects: 3.871400 ms  DeleteObjects: 0.273300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24549.643897 seconds.
+  path: Assets/Scenes/Levels.unity
+  artifactKey: Guid(311c46c1234d88348b0f3942fbacdce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels.unity using Guid(311c46c1234d88348b0f3942fbacdce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea19417b3cc52d04ae566fb2021c64f') in 0.006693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 132.496284 seconds.
+  path: Assets/JMO Assets/Welcome Screen/CFXR_WelcomeScreen.cs
+  artifactKey: Guid(9c4fcce295aee5d4fb38ac4f82c8e664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Welcome Screen/CFXR_WelcomeScreen.cs using Guid(9c4fcce295aee5d4fb38ac4f82c8e664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2adfc1d1e911a3bf45a8467e98665f3a') in 0.019640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002577 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_AutoRotate.cs
+  artifactKey: Guid(b78c1ba9facacbd48b8e1d9a4fb3ee0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_AutoRotate.cs using Guid(b78c1ba9facacbd48b8e1d9a4fb3ee0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd305a13140b20853cd4f8f2744857d') in 0.001432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010791 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/Delaunay/LR.cs
+  artifactKey: Guid(42741f042d2e748aaaf15e94b6ba71dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/Delaunay/LR.cs using Guid(42741f042d2e748aaaf15e94b6ba71dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0513ef2a9ee208f58501a69ac1ae8afc') in 0.001259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001580 seconds.
+  path: Assets/Scenes/Levels/8lvl.unity
+  artifactKey: Guid(2ba80f443ea59fe4d91f9663573b3a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/8lvl.unity using Guid(2ba80f443ea59fe4d91f9663573b3a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2473cb939680a5dada88397736705d64') in 0.002104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001289 seconds.
+  path: Assets/Animation/Stickman/DownSetting.anim
+  artifactKey: Guid(9e389a283b6e6c047b74face80eb43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Stickman/DownSetting.anim using Guid(9e389a283b6e6c047b74face80eb43a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779bd647ab13028d2109f12c9717feaa') in 0.015866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003804 seconds.
+  path: Assets/Animation/Grass/gr2L/Grass_02L.controller
+  artifactKey: Guid(b199e1807d006f1458ef7f674830885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Grass/gr2L/Grass_02L.controller using Guid(b199e1807d006f1458ef7f674830885f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f995c26faa9d6db49aa74a77c1cd4874') in 0.003790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004071 seconds.
+  path: Assets/Scripts/Cannon.cs
+  artifactKey: Guid(f6cab51139043a048a9bcc92386b5fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cannon.cs using Guid(f6cab51139043a048a9bcc92386b5fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ea3729dc81844ff164d922ed449e3c') in 0.001200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004005 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke first color.png
+  artifactKey: Guid(6386773108360044293d98e435fb73bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke first color.png using Guid(6386773108360044293d98e435fb73bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96b222f4e17ac908983d1ca619a2e32') in 0.038629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001907 seconds.
+  path: Assets/Scripts/CannonFire.cs
+  artifactKey: Guid(c3bb709ebf7f3634daddae4ddabe87cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CannonFire.cs using Guid(c3bb709ebf7f3634daddae4ddabe87cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769fa73b181b88077aca307e375721d8') in 0.001190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015292 seconds.
+  path: Assets/Animation/Coin/Coin_Idle.anim
+  artifactKey: Guid(674119c9d39a1134a9f8db9bd29c5976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Coin/Coin_Idle.anim using Guid(674119c9d39a1134a9f8db9bd29c5976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276f20915a904b2d0e8306cd92623b70') in 0.001956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012894 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleTextFontAsset.cs
+  artifactKey: Guid(ffbf5f8b3f8ff3e49bbbf5495becc6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleTextFontAsset.cs using Guid(ffbf5f8b3f8ff3e49bbbf5495becc6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7222b74843e648d3e9108c64152ebe') in 0.001246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000739 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/Delaunay/Vertex.cs
+  artifactKey: Guid(16e154efbeed043e1865a7d95f623368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/Delaunay/Vertex.cs using Guid(16e154efbeed043e1865a7d95f623368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33c3656ef84d9b711d87815b6048006') in 0.001951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005927 seconds.
+  path: Assets/Scripts/Interfaces/ITargetable.cs
+  artifactKey: Guid(bd8bda9e39db0bb4f98c49b0ab4429e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interfaces/ITargetable.cs using Guid(bd8bda9e39db0bb4f98c49b0ab4429e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa55dfc5a71b5a7053821007f24489d4') in 0.001201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005440 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes blur x2.png
+  artifactKey: Guid(646bf55dbf79b3f449a60721bdc705f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes blur x2.png using Guid(646bf55dbf79b3f449a60721bdc705f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209520e1dc6249029cad5c9caff96332') in 0.010418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005439 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait.png
+  artifactKey: Guid(851bab4bc28a67d47b301a47a0b7ba7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch trait.png using Guid(851bab4bc28a67d47b301a47a0b7ba7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f821ab48648688af583f52b1e76c9521') in 0.007812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003867 seconds.
+  path: Assets/Animation/Pig1/Rushist.controller
+  artifactKey: Guid(5c09f6f27be43e842be2f6ead2f4ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Pig1/Rushist.controller using Guid(5c09f6f27be43e842be2f6ead2f4ff87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a23526e3e380309730df94c477234d') in 0.003619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014499 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.174/Google.PackageManagerResolver.dll
+  artifactKey: Guid(789ffd788f924bd0bdb33e26b367ad70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.174/Google.PackageManagerResolver.dll using Guid(789ffd788f924bd0bdb33e26b367ad70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbe4e2efad9af64169e76c433543b0f') in 0.004338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000838 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.shader
+  artifactKey: Guid(5a711a01011934ebcb58ef5ad52159d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Shader/Bloom.shader using Guid(5a711a01011934ebcb58ef5ad52159d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d0376c253f6d9db99491fbe9fc39a5') in 0.002995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001202 seconds.
+  path: Assets/Scripts/BulletChanger.cs
+  artifactKey: Guid(62ca1a528ea0ce243808430c1145c9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BulletChanger.cs using Guid(62ca1a528ea0ce243808430c1145c9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64d20d7a0a1a4660b1005f2159166a5') in 0.001222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001435 seconds.
+  path: Assets/Scripts/SDK/AppLovinReward.cs
+  artifactKey: Guid(3084bafe5c430dd4f87e2cf896aa893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SDK/AppLovinReward.cs using Guid(3084bafe5c430dd4f87e2cf896aa893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf198db84d59bc8bd1460b63a383e82d') in 0.001203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001394 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/Delaunay/Voronoi.cs
+  artifactKey: Guid(8a659b037ca774ad4b255ac68dbe65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/Delaunay/Voronoi.cs using Guid(8a659b037ca774ad4b255ac68dbe65ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baba464524e0b204f2dbe94fa4d2f1c') in 0.001224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017266 seconds.
+  path: Assets/Scripts/FinishWindow.cs
+  artifactKey: Guid(7ad5fadc022178443aced73cd7ab9eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FinishWindow.cs using Guid(7ad5fadc022178443aced73cd7ab9eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bc96e47c0d4e15d75d9210d0dbb033') in 0.001208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015071 seconds.
+  path: Assets/Scenes/Levels/17lvl.unity
+  artifactKey: Guid(e98bef6570bc1b14784ac7eb42e01d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/17lvl.unity using Guid(e98bef6570bc1b14784ac7eb42e01d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31646d3f75e350f8dc5db388c3150f5') in 0.001235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010238 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleText.cs
+  artifactKey: Guid(03c8102322ad0d04fa6ae3f17887e967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_ParticleText.cs using Guid(03c8102322ad0d04fa6ae3f17887e967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f572d6b6988075dfa7c88f23e03688b') in 0.001238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001052 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR.cginc
+  artifactKey: Guid(b3dab2eb6bcf5df42a6c45d4638e0f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR.cginc using Guid(b3dab2eb6bcf5df42a6c45d4638e0f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be324d2edf109cb0f4c0f8f843c23b7e') in 0.003257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000906 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(6031802e4c764314dab1111dea3fcb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(6031802e4c764314dab1111dea3fcb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d34e7d6b4287b08c8e9d87def493f9') in 0.001247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013225 seconds.
+  path: Assets/Scripts/BuyProjectile.cs
+  artifactKey: Guid(fee55c9d404950e449a618e4f59d14b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BuyProjectile.cs using Guid(fee55c9d404950e449a618e4f59d14b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a09bb059ed04bd95b486e23d2d92ab7') in 0.001254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001114 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/Delaunay/DelaunayHelpers.cs
+  artifactKey: Guid(3e5cf667cd9df4f68a86433bcfff21d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/Delaunay/DelaunayHelpers.cs using Guid(3e5cf667cd9df4f68a86433bcfff21d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2640d6a89094341bb5b13a3f548dcb') in 0.001248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004639 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.cs
+  artifactKey: Guid(9205bc1bbacc90040a998067b5643d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.cs using Guid(9205bc1bbacc90040a998067b5643d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3572b2c3c497aea422821c20bad74d') in 0.001596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011959 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/Delaunay/Halfedge.cs
+  artifactKey: Guid(e873e30775b564fbd9b4b27ac5b0787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/Delaunay/Halfedge.cs using Guid(e873e30775b564fbd9b4b27ac5b0787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5610f15bfb88395d7d2d5568d83c109') in 0.002017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006930 seconds.
+  path: Assets/Scenes/Levels/12lvl.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/12lvl.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcee7c6ee65caf50e79095c972c5abc0') in 0.001291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Animation/pig2/pig2.controller
+  artifactKey: Guid(ce3196d2873b4eb478edd58047e92014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/pig2/pig2.controller using Guid(ce3196d2873b4eb478edd58047e92014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd867cec7efb80032e0f1fe19abbc7e') in 0.005595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Firebase/Plugins/iOS/Firebase.App.dll
+  artifactKey: Guid(5f3feda1a91343759b7eb58a29b492b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firebase/Plugins/iOS/Firebase.App.dll using Guid(5f3feda1a91343759b7eb58a29b492b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dde2db749ebab751463d7772bcad0e5') in 0.002272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007755 seconds.
+  path: Assets/Scenes/Levels/32lvl.unity
+  artifactKey: Guid(daa7632f99e6449419568344775e0016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/32lvl.unity using Guid(daa7632f99e6449419568344775e0016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f996840a50eccec8bc5485dda0a1ea9') in 0.001247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Firebase/Plugins/Firebase.Analytics.dll
+  artifactKey: Guid(816270c2a2a348e59cb9b7b096a24f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firebase/Plugins/Firebase.Analytics.dll using Guid(816270c2a2a348e59cb9b7b096a24f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8524c85182b770dc3bb9dae6129209ff') in 0.001536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014473 seconds.
+  path: Assets/2D_Destruction/Scripts/SpriteExploder.cs
+  artifactKey: Guid(88114238b604a0c4ea377254ec4ae1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Scripts/SpriteExploder.cs using Guid(88114238b604a0c4ea377254ec4ae1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cf0ed022c7f4e2028414ca1a878da0') in 0.001247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004283 seconds.
+  path: Assets/Scripts/LevelScene.cs
+  artifactKey: Guid(35643ced2cd03b24da8263d84179edff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LevelScene.cs using Guid(35643ced2cd03b24da8263d84179edff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827d5c40e67e7c54ab124b09eacfba44') in 0.001311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015193 seconds.
+  path: Assets/Scripts/Target.cs
+  artifactKey: Guid(07acd5a250d7f8b43aa6f0cf5603f6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Target.cs using Guid(07acd5a250d7f8b43aa6f0cf5603f6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73739bf4f14cf8f6665255b769374d69') in 0.002040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003502 seconds.
+  path: Assets/Scripts/Coin.cs
+  artifactKey: Guid(f5d04a350e8abba4185f8c9c4dbe57ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Coin.cs using Guid(f5d04a350e8abba4185f8c9c4dbe57ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e920bab59cb6198682de5b4271aafd') in 0.001126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003580 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_New.cs
+  artifactKey: Guid(8b17383a625e88348a99a6eeef772d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_New.cs using Guid(8b17383a625e88348a99a6eeef772d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f81b565f487f78f7d149d422ddcb8b71') in 0.001261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004836 seconds.
+  path: Assets/2D_Destruction/clipper_library/clipper.cs
+  artifactKey: Guid(d50cf82524bc8d3489bc7da62911e219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/clipper_library/clipper.cs using Guid(d50cf82524bc8d3489bc7da62911e219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d1e8a71aa8dc052b527dec79a92219') in 0.001264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047797 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.174/Google.JarResolver.dll
+  artifactKey: Guid(d9cf2414188e40c9a9f7a254a5436601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.174/Google.JarResolver.dll using Guid(d9cf2414188e40c9a9f7a254a5436601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3be91371556d1af8220dc9fe0587c5') in 0.001746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003273 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_URP.cginc
+  artifactKey: Guid(3eab241579cd5514388d88f452714385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_URP.cginc using Guid(3eab241579cd5514388d88f452714385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fcba580f72350157f0d608469503e5') in 0.002388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004657 seconds.
+  path: Assets/Firebase/Plugins/Firebase.App.dll
+  artifactKey: Guid(7311924048bd457bac6d713576c952da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firebase/Plugins/Firebase.App.dll using Guid(7311924048bd457bac6d713576c952da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336f3ac096bda71f310b1bcc7cc93387') in 0.001876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011713 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo.cs
+  artifactKey: Guid(35e9f6a6071b4f44fa2cf94b59d33251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo.cs using Guid(35e9f6a6071b4f44fa2cf94b59d33251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0448caf523aa7b9ca09790d879997e06') in 0.002067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006086 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RotateCamera.cs
+  artifactKey: Guid(f71e90e62dfae594490eb4d9b611f930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RotateCamera.cs using Guid(f71e90e62dfae594490eb4d9b611f930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee05cddc2e7377c51bea0c8708d5b5f') in 0.001227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002631 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RandomDir.cs
+  artifactKey: Guid(27666076fd6e86245aa62dfd9e943d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RandomDir.cs using Guid(27666076fd6e86245aa62dfd9e943d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976554737e86e8d288bfd014df04da0d') in 0.001227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/2D_Destruction/Scripts/Explodable.cs
+  artifactKey: Guid(75953d6b31f574644be1238b08e89b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Scripts/Explodable.cs using Guid(75953d6b31f574644be1238b08e89b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c077ee420add75fa440d165b8507cd6') in 0.001233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016890 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_LightIntensityFade.cs
+  artifactKey: Guid(c2255468ea97f384a9ebbb13e497e050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_LightIntensityFade.cs using Guid(c2255468ea97f384a9ebbb13e497e050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c7bed22e7257f62b79a2b28690f317') in 0.002011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006919 seconds.
+  path: Assets/Scenes/Levels/15lvl.unity
+  artifactKey: Guid(56e14ccb151f0ac4ba51bc66b0133eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/15lvl.unity using Guid(56e14ccb151f0ac4ba51bc66b0133eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da8603870af3e883b596305ed0cee6e') in 0.001293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003124 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_MaterialInspector.cs
+  artifactKey: Guid(4fb4c15e772a1cc4baecc7a958bf9cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_MaterialInspector.cs using Guid(4fb4c15e772a1cc4baecc7a958bf9cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9c7c94c9c720c57b2a895a08ec631d') in 0.001258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/2D_Destruction/Demo/Demo Scripts/Reset.cs
+  artifactKey: Guid(93c18a1a444938c4ea2f65c898c39440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Demo/Demo Scripts/Reset.cs using Guid(93c18a1a444938c4ea2f65c898c39440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f354e435d7d6c173104a3e176216424') in 0.001216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000548 seconds.
+  path: Assets/Animation/Grass/gr2L/GrassIdle.anim
+  artifactKey: Guid(ca8534bf39926134d8d5895d9b6d2204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Grass/gr2L/GrassIdle.anim using Guid(ca8534bf39926134d8d5895d9b6d2204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875366b217207035d51c36bde104c536') in 0.001855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000993 seconds.
+  path: Assets/Scenes/Levels/3lvl.unity
+  artifactKey: Guid(c442ac93c17e3ed46b1bf2b8748ae86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/3lvl.unity using Guid(c442ac93c17e3ed46b1bf2b8748ae86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afa76c2b906af33d95f41bb9d4a8818') in 0.001504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014305 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/Delaunay/ICoord.cs
+  artifactKey: Guid(6a0a816d1340149068ec7fa5bc31c72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/Delaunay/ICoord.cs using Guid(6a0a816d1340149068ec7fa5bc31c72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9417cb0a5bc8800211d66d42f7e76b') in 0.001284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003252 seconds.
+  path: Assets/Scenes/Levels/14lvl.unity
+  artifactKey: Guid(bde5e5d2a973e9b4cbdf801f7a5ad850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/14lvl.unity using Guid(bde5e5d2a973e9b4cbdf801f7a5ad850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e49fb68bb722b966188eb315075d21') in 0.001213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003363 seconds.
+  path: Assets/Prefabs/UI/CanvasShop.prefab
+  artifactKey: Guid(bf94396207f7add478cb529d80c867c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/UI/CanvasShop.prefab using Guid(bf94396207f7add478cb529d80c867c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc0d2c9cb897f053ab44988ec5e0428') in 0.024010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004709 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade.png
+  artifactKey: Guid(0f396005b9d2a904aaaccab1ad4b77a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch inv spike fade.png using Guid(0f396005b9d2a904aaaccab1ad4b77a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79afbce168e2414ec54d77de146fb652') in 0.009930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003912 seconds.
+  path: Assets/2D_Destruction/Scripts/ClipperHelper.cs
+  artifactKey: Guid(f4b1882c785d77c4fa3642e8db1e1f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Scripts/ClipperHelper.cs using Guid(f4b1882c785d77c4fa3642e8db1e1f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fb46030da2c04ca3c0ff055027cbb4') in 0.001156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000665 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomGraphDrawer.cs
+  artifactKey: Guid(4afcb2949e7fb42679b587b8848b7e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomGraphDrawer.cs using Guid(4afcb2949e7fb42679b587b8848b7e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9ec2d602f9ae10654845d54ac7ff0b') in 0.001857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012770 seconds.
+  path: Assets/Scripts/CGUIManager.cs
+  artifactKey: Guid(e3c33b14c7f88b54f986f5cb64d4efbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CGUIManager.cs using Guid(e3c33b14c7f88b54f986f5cb64d4efbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcd9bb4e6a072b15b7112ee088637d0') in 0.001215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Animation/Stickman/Setting.anim
+  artifactKey: Guid(faf0e74ef43e19142bdfeb2304fb2561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Stickman/Setting.anim using Guid(faf0e74ef43e19142bdfeb2304fb2561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a477d1cbb0f80ae7f4a3831b5401238e') in 0.002519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012644 seconds.
+  path: Assets/Firebase/Editor/network_request.exe
+  artifactKey: Guid(d3cd5d0a941c4cdc8ab4b1b684b05191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firebase/Editor/network_request.exe using Guid(d3cd5d0a941c4cdc8ab4b1b684b05191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b46b98df4d34efa053ae042297c3d26') in 0.004076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Firebase/Plugins/iOS/Firebase.Analytics.dll
+  artifactKey: Guid(52718a3a80d44aacb368bcc9d62dd804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firebase/Plugins/iOS/Firebase.Analytics.dll using Guid(52718a3a80d44aacb368bcc9d62dd804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eedf01de9f02ceba2975b501508436f') in 0.001361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015934 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/geom/Winding.cs
+  artifactKey: Guid(1a38f1425b42547898d3b2ef6c865e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/geom/Winding.cs using Guid(1a38f1425b42547898d3b2ef6c865e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0746b95486ff57f86cf7eae87c566c') in 0.001216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001702 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR2 Sparks Rain.prefab
+  artifactKey: Guid(798157bad7358b04499c9d71cd3c0d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Prefabs/Electric/CFXR2 Sparks Rain.prefab using Guid(798157bad7358b04499c9d71cd3c0d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7569a7965451c88960da23a12f6e89b') in 0.073161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005164 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/geom/Circle.cs
+  artifactKey: Guid(e5300884d68b94e1c958b6328944dcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/geom/Circle.cs using Guid(e5300884d68b94e1c958b6328944dcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9238b1cb1fc196f64cb0284013d784') in 0.001266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000563 seconds.
+  path: Assets/Animation/pig2/Nose.anim
+  artifactKey: Guid(bca8b9b4f1e56c54695493851b82fe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/pig2/Nose.anim using Guid(bca8b9b4f1e56c54695493851b82fe6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15db3c3d010c697dca2540525476101c') in 0.002538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002310 seconds.
+  path: Assets/Firebase/Editor/Firebase.Editor.dll
+  artifactKey: Guid(9f2edbf81053418f879076c05f816dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firebase/Editor/Firebase.Editor.dll using Guid(9f2edbf81053418f879076c05f816dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d534c00f6c9c3f6fd8bb50f7ea71526') in 0.001314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004738 seconds.
+  path: Assets/Animation/UI/Plus Btn/PlusBtn.anim
+  artifactKey: Guid(9a61afd82b6408b439118729116053b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/UI/Plus Btn/PlusBtn.anim using Guid(9a61afd82b6408b439118729116053b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacf5e4ee2d31b983f961cfa2b27902d') in 0.001940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000877 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/utils/IDisposable.cs
+  artifactKey: Guid(7cb01ead474dc485fa87ef0e202dcc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/utils/IDisposable.cs using Guid(7cb01ead474dc485fa87ef0e202dcc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115382b91c9ac88e9b1918536fb22c25') in 0.001194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000794 seconds.
+  path: Assets/Scenes/Levels/34lvl.unity
+  artifactKey: Guid(fe0539f05f1225041af4c23d9dd0cd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/34lvl.unity using Guid(fe0539f05f1225041af4c23d9dd0cd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7e96d57efc48726c185368c1e6769f') in 0.001230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007257 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_LightFlicker.cs
+  artifactKey: Guid(74eb290077a495b4f8489f895b2cc599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_LightFlicker.cs using Guid(74eb290077a495b4f8489f895b2cc599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a62ca7b740b51a10bddec929dee918') in 0.001203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010670 seconds.
+  path: Assets/Animation/Stickman/UpSettting.anim
+  artifactKey: Guid(f04de53d1b2410f428fdd919999af0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Stickman/UpSettting.anim using Guid(f04de53d1b2410f428fdd919999af0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3342379b59286cffce05303b3b16b23b') in 0.002325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002022 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes dissolve smooth x2.png
+  artifactKey: Guid(e8b834b74904e894bb4ecee603370bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr stretch sipkes dissolve smooth x2.png using Guid(e8b834b74904e894bb4ecee603370bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf88e255ca82b330a4b436b5fd2e1c9') in 0.008480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002196 seconds.
+  path: Assets/Scripts/StaticTarger.cs
+  artifactKey: Guid(15a9a5c04e742e742a3a1bb7244ff9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StaticTarger.cs using Guid(15a9a5c04e742e742a3a1bb7244ff9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f20665c8fc4143f0147aa0a865dd1b7') in 0.001210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000969 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_AutoDestructShuriken.cs
+  artifactKey: Guid(6fd2e8874f60266498a388d7229a1bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Scripts/CFX_AutoDestructShuriken.cs using Guid(6fd2e8874f60266498a388d7229a1bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d2b80bc50c8073869acb57cccf2f31') in 0.001231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022182 seconds.
+  path: Assets/Scripts/WinCondition.cs
+  artifactKey: Guid(ef43cbee58c180b4485c8813adad92cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WinCondition.cs using Guid(ef43cbee58c180b4485c8813adad92cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2d7ea716999f6030e14d58a36ba780') in 0.001913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004008 seconds.
+  path: Assets/Parse/Plugins/dotNet45/Unity.Compat.dll
+  artifactKey: Guid(3db0783b58c2429b9bc1f560ba323d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parse/Plugins/dotNet45/Unity.Compat.dll using Guid(3db0783b58c2429b9bc1f560ba323d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c40249f0324d25ae5744c2d1d45772') in 0.001216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000699 seconds.
+  path: Assets/Animation/Grass/gr1/Grass_01.controller
+  artifactKey: Guid(ec631cd7d7981344aad00a8ca26631b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Grass/gr1/Grass_01.controller using Guid(ec631cd7d7981344aad00a8ca26631b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a788296fe8741e307a0218e92323902') in 0.002326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001062 seconds.
+  path: Assets/Scripts/FindTargets.cs
+  artifactKey: Guid(4291861ef8173b642bf2d24276be410f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FindTargets.cs using Guid(4291861ef8173b642bf2d24276be410f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77545d27b37b5defa51c704be0eca3e') in 0.001189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007697 seconds.
+  path: Assets/Scenes/Levels/6lvl.unity
+  artifactKey: Guid(ac0d510e2bba4f146857d707a3bd278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/6lvl.unity using Guid(ac0d510e2bba4f146857d707a3bd278c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8e0f584c3b21b6ae157a2066fb40a8') in 0.001215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036716 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/Delaunay/Site.cs
+  artifactKey: Guid(fa5d818389dce40d29f97fb47bf83081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/Delaunay/Site.cs using Guid(fa5d818389dce40d29f97fb47bf83081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999aad7fa8ddff0c48f88a7d8a6a6562') in 0.001206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023955 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_AutoStopLoopedEffect.cs
+  artifactKey: Guid(d9c4e89389fa607479b0744ec6611490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_AutoStopLoopedEffect.cs using Guid(d9c4e89389fa607479b0744ec6611490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff49133775e30b81cee31be02ccbc28') in 0.001226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004741 seconds.
+  path: Assets/Scripts/Restart.cs
+  artifactKey: Guid(00530df8668b30c48b16fcab81ef30d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Restart.cs using Guid(00530df8668b30c48b16fcab81ef30d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2836e46b40b3688161685bca3256d512') in 0.001225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001029 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_SETTINGS.cginc
+  artifactKey: Guid(12c0fc6ff46c9b64a99fb4b921970883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR_SETTINGS.cginc using Guid(12c0fc6ff46c9b64a99fb4b921970883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b783d0490c1d6c8996613b248a69342') in 0.002821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003806 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Materials/Fire/CFX3_FireSparkle ADD.mat
+  artifactKey: Guid(c9386fd37103dcb479f09e942849a1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Materials/Fire/CFX3_FireSparkle ADD.mat using Guid(c9386fd37103dcb479f09e942849a1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebdd51e3aee60218fd4e4a56e64cf82') in 0.034631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015082 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomEditor.cs
+  artifactKey: Guid(036bc30d96c3349ce86bfc8d95667da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Editor/BloomEditor.cs using Guid(036bc30d96c3349ce86bfc8d95667da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316d855deb8fa0eb55a83974db43c9c2') in 0.001183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005899 seconds.
+  path: Assets/Scripts/test.cs
+  artifactKey: Guid(54e0db1be4b983b4286733e33e1dea06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/test.cs using Guid(54e0db1be4b983b4286733e33e1dea06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82425959af519ba6650bdbb5e7fd987') in 0.001550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011306 seconds.
+  path: Assets/Scenes/Levels/30lvl.unity
+  artifactKey: Guid(677931eaef0c59747ad6e37f63493af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/30lvl.unity using Guid(677931eaef0c59747ad6e37f63493af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c0cc1c203320326f2e59d784a4a1b2') in 0.001250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000749 seconds.
+  path: Assets/Scripts/SDK/AppLovinInterstitial.cs
+  artifactKey: Guid(68ccdc4c418f8a3498b19fc54722e812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SDK/AppLovinInterstitial.cs using Guid(68ccdc4c418f8a3498b19fc54722e812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b542178981ad47049bc4d57d2013739') in 0.001406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000609 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_BuildShaderPreprocessor.cs
+  artifactKey: Guid(00a9608d23679304bbbcf63f569012f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_BuildShaderPreprocessor.cs using Guid(00a9608d23679304bbbcf63f569012f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0553be914cc96403d8ff21287f4725fe') in 0.001221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000774 seconds.
+  path: Assets/Scenes/Levels/7lvl.unity
+  artifactKey: Guid(f5dc3f523d0034a4380996d69c1cea65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/7lvl.unity using Guid(f5dc3f523d0034a4380996d69c1cea65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba1f6bff9df1006edef17b208fa7e16') in 0.001224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Firebase/Plugins/Firebase.TaskExtension.dll
+  artifactKey: Guid(f5d4069c578548ba9f199b46d61bf06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firebase/Plugins/Firebase.TaskExtension.dll using Guid(f5d4069c578548ba9f199b46d61bf06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daeaf6d92e9d9733457d4d775eb139c') in 0.001222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/Animation/pig2/Die.anim
+  artifactKey: Guid(4a32ff8e5cb6ec046a34e8ad7f8708f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/pig2/Die.anim using Guid(4a32ff8e5cb6ec046a34e8ad7f8708f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1060ba37557fd2c61db1d2f2a90659d0') in 0.002867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006651 seconds.
+  path: Assets/Scripts/OnGravity.cs
+  artifactKey: Guid(3994a6e9a62c9784f91d677cec6f3fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OnGravity.cs using Guid(3994a6e9a62c9784f91d677cec6f3fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0adaa4bd1b0ca73d89fcc6e63033bc') in 0.001219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007753 seconds.
+  path: Assets/Scripts/Bullet.cs
+  artifactKey: Guid(fa012c7654fd24a419c4e4bad1d6ad0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bullet.cs using Guid(fa012c7654fd24a419c4e4bad1d6ad0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca754495a787df82bc25f5860245f3ae') in 0.001562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000987 seconds.
+  path: Assets/Scripts/CGameData.cs
+  artifactKey: Guid(8dd2fc87a4bc8d349ae6bdf6e6a4d960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CGameData.cs using Guid(8dd2fc87a4bc8d349ae6bdf6e6a4d960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92104e788a490312c6b91a89dba2a2e5') in 0.001171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005703 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_Translate.cs
+  artifactKey: Guid(1e42ac40a6fba2e4d94a0070ef45cea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_Translate.cs using Guid(1e42ac40a6fba2e4d94a0070ef45cea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90367c8b4fedf1bd47dd5f6cfd30bab6') in 0.001904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004040 seconds.
+  path: Assets/Scripts/Stats.cs
+  artifactKey: Guid(41ef621f5156078498a5e28ffab5302d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Stats.cs using Guid(41ef621f5156078498a5e28ffab5302d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19b142401c4a18cedc07a64f6130df7') in 0.001208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005214 seconds.
+  path: Assets/Animation/Grass/gr2/GR2Idle.anim
+  artifactKey: Guid(f122e8a0d4800604eab13a4bdc8ecc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Grass/gr2/GR2Idle.anim using Guid(f122e8a0d4800604eab13a4bdc8ecc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bd5872416fff7ca6532f3ab1bb648f') in 0.002418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012174 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Shaders/CFXM_MobileParticleAdd_Alpha8.shader
+  artifactKey: Guid(bccaaca1f83315c4aad8d95e28fd9149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Shaders/CFXM_MobileParticleAdd_Alpha8.shader using Guid(bccaaca1f83315c4aad8d95e28fd9149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e14f67038fde1df442050c4bb80e285') in 0.001556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020235 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Bloom.cs
+  artifactKey: Guid(6363bba448bf64e60a763433f9ddf81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/Kino Bloom/Bloom.cs using Guid(6363bba448bf64e60a763433f9ddf81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98945d7740ec5c693920679c11bf6438') in 0.001325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Scripts/CLevelStartScene.cs
+  artifactKey: Guid(b9777dddf4abe9a4790c0c04199170f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CLevelStartScene.cs using Guid(b9777dddf4abe9a4790c0c04199170f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a41fa200abbebaba334d864dd39766d9') in 0.001846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005526 seconds.
+  path: Assets/2D_Destruction/Demo/Demo Scripts/ExplodeOnClick.cs
+  artifactKey: Guid(7af6dd9712bb07c43a7a851e83d317f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Demo/Demo Scripts/ExplodeOnClick.cs using Guid(7af6dd9712bb07c43a7a851e83d317f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e14d12a682a4ba9573ac9432db8baa') in 0.001220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004150 seconds.
+  path: Assets/Animation/Stickman/Fire.anim
+  artifactKey: Guid(5775675f0708ddd4493ecc8a02c82491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Stickman/Fire.anim using Guid(5775675f0708ddd4493ecc8a02c82491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d015852bb5606a2420f2e38858cc93d') in 0.002657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009296 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.CameraShake.cs
+  artifactKey: Guid(04efd1cc0f5c31c4da57d931c6665976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_Effect.CameraShake.cs using Guid(04efd1cc0f5c31c4da57d931c6665976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eaf73e32a2dea39de98047498292fe6') in 0.001220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025441 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Shaders/CFX3 Multiply Color.shader
+  artifactKey: Guid(d09abe9036011f94a9e27ccc73cea0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Shaders/CFX3 Multiply Color.shader using Guid(d09abe9036011f94a9e27ccc73cea0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9776dbf01bfd0a65b8abd0ca0420e1') in 0.001684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008889 seconds.
+  path: Assets/Scenes/Levels/33lvl.unity
+  artifactKey: Guid(b7e2f566d25cdf241b86512c7dbd2802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/33lvl.unity using Guid(b7e2f566d25cdf241b86512c7dbd2802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3991afa5dde90ea3ac60fe0ffd33840') in 0.001234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003774 seconds.
+  path: Assets/2D_Destruction/Scripts/ExplodableFragments.cs
+  artifactKey: Guid(39c037c84bace504697edb2369c9dfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Scripts/ExplodableFragments.cs using Guid(39c037c84bace504697edb2369c9dfc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c136bd49e029aed2d4cbb2d4e70899e') in 0.001223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000840 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/Delaunay/EdgeReorderer.cs
+  artifactKey: Guid(a6e9c0c7f4ae649678b34ec5397e4079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/Delaunay/EdgeReorderer.cs using Guid(a6e9c0c7f4ae649678b34ec5397e4079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cc273fbcc32a5aa6726450f84e6211') in 0.001204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/Firebase/Plugins/Google.MiniJson.dll
+  artifactKey: Guid(3ebb289656f1477fa263e62d36c6e329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firebase/Plugins/Google.MiniJson.dll using Guid(3ebb289656f1477fa263e62d36c6e329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae7531749b9d3679b2e4dd0a86943c0') in 0.001201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011501 seconds.
+  path: Assets/Scripts/DisableEffect.cs
+  artifactKey: Guid(244ab3c44df2db34aaf9bd0adfbc3bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DisableEffect.cs using Guid(244ab3c44df2db34aaf9bd0adfbc3bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3d89fe4762f7be0e58b3c78569f7b6') in 0.001388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012135 seconds.
+  path: Assets/Scripts/DisableObject.cs
+  artifactKey: Guid(e90f7da95b9c81a4c9c84370cdff3ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DisableObject.cs using Guid(e90f7da95b9c81a4c9c84370cdff3ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90bead945ca875f5725cced44c67951') in 0.001212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/Animation/Pig1/Rushist.anim
+  artifactKey: Guid(61b662ff2c4a3374f84a6f2450f17106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Pig1/Rushist.anim using Guid(61b662ff2c4a3374f84a6f2450f17106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3546ddaa29011547dd6020954e8d6a') in 0.001942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001382 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull.png
+  artifactKey: Guid(3332c7f01d8a1934fbd377760beaae90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull.png using Guid(3332c7f01d8a1934fbd377760beaae90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4071464a65e83db4a20e71c5038f63f') in 0.010600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008205 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/Delaunay/EdgeList.cs
+  artifactKey: Guid(0f2bfd7ed370844afb774f34e1d6366a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/Delaunay/EdgeList.cs using Guid(0f2bfd7ed370844afb774f34e1d6366a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9cd256061fd61d127f2e0ec8a5e32c') in 0.001266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/2D_Destruction/Scripts/ExplodableAddon.cs
+  artifactKey: Guid(5585f2ed16db5254683ce71ab7429d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Scripts/ExplodableAddon.cs using Guid(5585f2ed16db5254683ce71ab7429d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a28d58f0731333622974e33d9df8813') in 0.001567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019853 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_EmissionBySurface.cs
+  artifactKey: Guid(403cb51292a8b3c4c870cccfc0e68659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Scripts/CFXR_EmissionBySurface.cs using Guid(403cb51292a8b3c4c870cccfc0e68659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3432fed78b735b1822b2ae69ce74dc7c') in 0.001192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002339 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_ExpressionParser.cs
+  artifactKey: Guid(ce7d96d3a4d4f3b4681ab437a9710d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_ExpressionParser.cs using Guid(ce7d96d3a4d4f3b4681ab437a9710d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccb047c80caab119c58c80de79161c3') in 0.001895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Animation/Grass/gr2/Grass_02.controller
+  artifactKey: Guid(377221e4e3a74b14e9fe4c41bf1e96b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Grass/gr2/Grass_02.controller using Guid(377221e4e3a74b14e9fe4c41bf1e96b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42262f79dceffdcc7522b28691946736') in 0.002309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001598 seconds.
+  path: Assets/Animation/pig2/Dance.anim
+  artifactKey: Guid(607f5647ebe19fa418fa77604a12bfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/pig2/Dance.anim using Guid(607f5647ebe19fa418fa77604a12bfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86434becbbaa356c3c80df00382cb764') in 0.002870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000865 seconds.
+  path: Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll
+  artifactKey: Guid(bb6999c8a5ce4ba99688ec579babe5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll using Guid(bb6999c8a5ce4ba99688ec579babe5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c5c0f18343f6f1bc263f7134830527') in 0.001196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/Delaunay/SiteList.cs
+  artifactKey: Guid(d11fa694a445f4fbb9c6ef8f51d7d549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/Delaunay/SiteList.cs using Guid(d11fa694a445f4fbb9c6ef8f51d7d549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ca7bcf43b4bb57e73ecc61813a28ac') in 0.001214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004667 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/geom/Polygon.cs
+  artifactKey: Guid(e59bb833c9cf045e992b44a5e23837cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/geom/Polygon.cs using Guid(e59bb833c9cf045e992b44a5e23837cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c859128e4d11d8e05b487a5bf5507f9') in 0.001199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003393 seconds.
+  path: Assets/Animation/UI/Plus Btn/PlusBtn.controller
+  artifactKey: Guid(85e9e9a3ba9903d44a338b4e15cb566a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/UI/Plus Btn/PlusBtn.controller using Guid(85e9e9a3ba9903d44a338b4e15cb566a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e1a8064f07f801f3de7915ba522321') in 0.001948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005653 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_Translate.cs
+  artifactKey: Guid(fd81627723031224baf6eef1b52a3f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_Translate.cs using Guid(fd81627723031224baf6eef1b52a3f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a0a29fae07b4c9655ca16b86f6251d') in 0.001211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003874 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull dissolve.png
+  artifactKey: Guid(5141db1a578958c4cb94ff08ee9dbcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr skull dissolve.png using Guid(5141db1a578958c4cb94ff08ee9dbcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71b012cbe23ca765ffb5057227f9757') in 0.009932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015200 seconds.
+  path: Assets/Scripts/DeleyEffectBullet.cs
+  artifactKey: Guid(69f5e77af4fdd8043b77f86a77780eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DeleyEffectBullet.cs using Guid(69f5e77af4fdd8043b77f86a77780eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea0b7bd21f204f3e49dc9dd7c115d1a') in 0.001218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000588 seconds.
+  path: Assets/Scripts/SDK/AppLovinAdsBanner.cs
+  artifactKey: Guid(e51f5e76a73de5c49a129680e3cd4e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SDK/AppLovinAdsBanner.cs using Guid(e51f5e76a73de5c49a129680e3cd4e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c76b8299ded660b891b9993bda3383f') in 0.001715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019476 seconds.
+  path: Assets/Animation/Grass/gr1/GrassIdle.anim
+  artifactKey: Guid(aba9dbe7642080b4c8110cbf5216c093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Grass/gr1/GrassIdle.anim using Guid(aba9dbe7642080b4c8110cbf5216c093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c895015f89fd3668877a76c022cf5ea3') in 0.001850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001139 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_Styles.cs
+  artifactKey: Guid(26306333afc273640814fd7a7b3968e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Editor/CFXR_Styles.cs using Guid(26306333afc273640814fd7a7b3968e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7563c6a6f69f7165c24de8990a373a98') in 0.001257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000829 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/Delaunay/Triangle.cs
+  artifactKey: Guid(c86ee3287678f413e99d8256fcbbbd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/Delaunay/Triangle.cs using Guid(c86ee3287678f413e99d8256fcbbbd6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5160c33216730824b52dfe3463425aa') in 0.001173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002818 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.174/Google.IOSResolver.dll
+  artifactKey: Guid(83ff4764cfaa404ab9546c5a00b1b54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.174/Google.IOSResolver.dll using Guid(83ff4764cfaa404ab9546c5a00b1b54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf192fbfbcbdc594724eb8e7fc8b681') in 0.001247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009217 seconds.
+  path: Assets/Scenes/Levels/13lvl.unity
+  artifactKey: Guid(67111c809bdfab543ac8d10914dc3ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/13lvl.unity using Guid(67111c809bdfab543ac8d10914dc3ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c99c075b83b72144f42c7879bc74285') in 0.001472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_Rotate.cs
+  artifactKey: Guid(1529372f6ddbfb0429260b50bc9d1aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/Demo Assets/CFXR_Demo_Rotate.cs using Guid(1529372f6ddbfb0429260b50bc9d1aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9650c8142c127255814df02f10f8223c') in 0.001308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012599 seconds.
+  path: Assets/Scripts/Stickman.cs
+  artifactKey: Guid(02bfceab44bff7c499b5f71c31a0be60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Stickman.cs using Guid(02bfceab44bff7c499b5f71c31a0be60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0157459d72bb6157d5179219619ea16b') in 0.001094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/2D_Destruction/Scripts/Editor/ExplodableEditor.cs
+  artifactKey: Guid(bb97dd95347dc52498ef1224a58907c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Scripts/Editor/ExplodableEditor.cs using Guid(bb97dd95347dc52498ef1224a58907c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0336ac7991b5cceed358d9add6c0cb07') in 0.001183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003541 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/Delaunay/Edge.cs
+  artifactKey: Guid(49202b1d309f140d6bd015a7fbce4b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/Delaunay/Edge.cs using Guid(49202b1d309f140d6bd015a7fbce4b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44028099245f22bb87a342c8ac6587a') in 0.001195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/Delaunay/HalfedgePriorityQueue.cs
+  artifactKey: Guid(6ba85128b77e245478cd4bc1ac6c8f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/Delaunay/HalfedgePriorityQueue.cs using Guid(6ba85128b77e245478cd4bc1ac6c8f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e775ef00258b1b8ed7906ac7ba40196') in 0.001976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010208 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke second color.png
+  artifactKey: Guid(fb254775819c9984b9be66d44452477c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Graphics/cfxr ww smoke second color.png using Guid(fb254775819c9984b9be66d44452477c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17bdeb4afa6793d70d038df871905da') in 0.010166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003454 seconds.
+  path: Assets/Scripts/ShootUI.cs
+  artifactKey: Guid(e9bddfa30fa830341a6592aa4b9b1bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ShootUI.cs using Guid(e9bddfa30fa830341a6592aa4b9b1bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968d1e3a922ca6711943eda5b7826f52') in 0.001206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RandomDirectionTranslate.cs
+  artifactKey: Guid(83982eed39974834bada258fbddd1e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX (legacy)/Demo/Assets/CFX_Demo_RandomDirectionTranslate.cs using Guid(83982eed39974834bada258fbddd1e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1d6aaaefc3f2c651f8289d2cb1a6cf') in 0.001630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007955 seconds.
+  path: Assets/Scenes/Levels/31lvl.unity
+  artifactKey: Guid(3714bf902d2730a46867a1420beb3679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/31lvl.unity using Guid(3714bf902d2730a46867a1420beb3679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370dd5808c47921f3f3039556f3c73d9') in 0.001238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000888 seconds.
+  path: Assets/Scripts/Save/Levels.cs
+  artifactKey: Guid(7aa7f9f6a191b2640b005b0a62ca510c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Save/Levels.cs using Guid(7aa7f9f6a191b2640b005b0a62ca510c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f04eb730507943ed20223c92781c5a0f') in 0.001939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023740 seconds.
+  path: Assets/Scenes/Levels/2lvl.unity
+  artifactKey: Guid(83cd2ecf329846145a1450c87f778c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/2lvl.unity using Guid(83cd2ecf329846145a1450c87f778c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74893b59ed7b59681c0aa23976325b0b') in 0.001219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005861 seconds.
+  path: Assets/Scripts/CGameManager.cs
+  artifactKey: Guid(bda55828234c53c479209aff9857d7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CGameManager.cs using Guid(bda55828234c53c479209aff9857d7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940e639beb8f4cef4dc504f0d88eb734') in 0.001183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004472 seconds.
+  path: Assets/Firebase/Editor/generate_xml_from_google_services_json.exe
+  artifactKey: Guid(ae88c0972b7448b5b36def1716f1d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firebase/Editor/generate_xml_from_google_services_json.exe using Guid(ae88c0972b7448b5b36def1716f1d711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69b64ea7caf24b52c51902a66485081') in 0.001760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001004 seconds.
+  path: Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Ubershader.shader
+  artifactKey: Guid(e198026df304af84a85675be636192ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX Remaster/CFXR Assets/Shaders/CFXR Particle Ubershader.shader using Guid(e198026df304af84a85675be636192ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c307686dd331d474bc530149f92a7bee') in 0.001832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003695 seconds.
+  path: Assets/2D_Destruction/Unity-delaunay/geom/LineSegment.cs
+  artifactKey: Guid(76312350a2abb4fa9a9926fc7da2287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D_Destruction/Unity-delaunay/geom/LineSegment.cs using Guid(76312350a2abb4fa9a9926fc7da2287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe63677a7e235253e7f68034b52e28b3') in 0.001244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001124 seconds.
+  path: Assets/Animation/Coin/Coin_01.controller
+  artifactKey: Guid(de49b998e7673bd48afad21814a7cdbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Coin/Coin_01.controller using Guid(de49b998e7673bd48afad21814a7cdbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa92f3ecd3f53e6863073b3fe5fcbfee') in 0.001852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006428 seconds.
+  path: Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll
+  artifactKey: Guid(bd18eee30834e4f71bded96fd14033a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll using Guid(bd18eee30834e4f71bded96fd14033a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e9b63a1c65303428448834688b42c3') in 0.001673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000622 seconds.
+  path: Assets/ExternalDependencyManager/Editor/1.2.174/Google.VersionHandlerImpl.dll
+  artifactKey: Guid(149319a041c7420b94473745b1919576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager/Editor/1.2.174/Google.VersionHandlerImpl.dll using Guid(149319a041c7420b94473745b1919576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a152783e2d127b5f79743f21bfd9f9c7') in 0.001198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006626 seconds.
+  path: Assets/Firebase/Plugins/Firebase.Platform.dll
+  artifactKey: Guid(7d3eec03d7e241a48941e038118c5e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firebase/Plugins/Firebase.Platform.dll using Guid(7d3eec03d7e241a48941e038118c5e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac89890a71099cae3d8e1627514c9784') in 0.001931 seconds 

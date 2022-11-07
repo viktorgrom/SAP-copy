@@ -1,0 +1,104 @@
+{
+    "levelDataList": [
+        {
+            "levelId": 1,
+            "numStars": 0,
+            "active": 1
+        },
+        {
+            "levelId": 2,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 3,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 4,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 5,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 6,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 7,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 8,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 9,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 10,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 11,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 12,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 13,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 14,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 15,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 16,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 17,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 18,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 19,
+            "numStars": 0,
+            "active": 0
+        },
+        {
+            "levelId": 20,
+            "numStars": 0,
+            "active": 0
+        }
+    ]
+}
